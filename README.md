@@ -1,12 +1,16 @@
+Aluguel de Motos
+
 📌 Sobre o projeto
 
 Este é um sistema de Aluguel de Motos, desenvolvido em .NET, organizado em camadas como Controllers, Models, ViewModel e DataBase.
-O objetivo é fornecer uma API estruturada para gerenciar cadastros, locações e demais operações relacionadas.
+O projeto utiliza PostgreSQL como banco de dados relacional e suporta execução em Docker.
 
 🚀 Tecnologias utilizadas
 
 .NET 6+ (C#)
 
-Entity Framework (para persistência de dados)
+Entity Framework Core
 
-Docker (para containerização)
+PostgreSQL (Banco de dados)
+
+Docker & Docker Compose
